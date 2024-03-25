@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { DefaultLoginLayoutComponent } from "../../components/default-login-layout/default-login-layout.component";
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { PrimaryInputComponent } from "../../components/primary-input/primary-input.component";
 
 
 @Component({
@@ -8,7 +9,7 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
     standalone: true,
     templateUrl: './login.component.html',
     styleUrl: './login.component.scss',
-    imports: [DefaultLoginLayoutComponent, ReactiveFormsModule]
+    imports: [DefaultLoginLayoutComponent, ReactiveFormsModule, PrimaryInputComponent]
 })
 export class LoginComponent {
 

@@ -20,6 +20,13 @@ main{
 
         flex-grow: 1;
         background-color: $gray-bg;
+
+        img{
+            width: 40%;
+        }
+        h1{
+            padding-bottom: 20px;
+        }
     }
 
     .form-section{
@@ -27,13 +34,13 @@ main{
         padding: 0 35px;
 
         img{
-            margin-bottom: 30px;
+            margin-bottom: 5px;
         }
 
         h2{
             font-size: 20px;
             font-weight: bold;
-            margin-bottom: 45px;
+            margin-bottom: 20px;
         }
 
         .btn-wrappper{
@@ -41,9 +48,8 @@ main{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100%;
             width: 100%;
-            gap: 30px;
+            gap: 15px;
 
             .divider{
                 width: 100%;
